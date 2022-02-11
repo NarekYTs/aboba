@@ -21,7 +21,7 @@ def main():
 
 while True:
   for i in range(9):  
-    if time.gmtime()[3] == 5 + 2*i and time.gmtime()[4] == 45:
+    if time.gmtime()[3] == 5 + 2*i and time.gmtime()[4] == 47:
       main()
       break
   time.sleep(5)
